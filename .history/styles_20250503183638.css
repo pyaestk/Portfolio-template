@@ -313,16 +313,14 @@ video {
 
   /* index.html */
   .intro-body {
-    margin-top: 50px;
-    margin-bottom: 50px;
     text-align: center;
   }
   .my-name {
-    font-size: 35px;
+    font-size: 45px;
   }
   .intro-text p {
     text-align: center;
-    font-size: 13px;
+    font-size: 15px;
     padding-right: 0;
   }
 
@@ -349,6 +347,9 @@ video {
   }
   .project-intro h1 {
     font-size: 45px;
+  }
+  .projects-list-container .card{
+    box-shadow: 0 0 10px rgb(255, 255, 255);
   }
 
 

@@ -350,6 +350,9 @@ video {
   .project-intro h1 {
     font-size: 45px;
   }
+  .projects-list-container .card{
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+  }
 
 
   /* education.html */

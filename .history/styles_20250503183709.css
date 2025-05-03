@@ -313,8 +313,6 @@ video {
 
   /* index.html */
   .intro-body {
-    margin-top: 50px;
-    margin-bottom: 50px;
     text-align: center;
   }
   .my-name {
@@ -349,6 +347,9 @@ video {
   }
   .project-intro h1 {
     font-size: 45px;
+  }
+  .projects-list-container .card{
+    box-shadow: 0 0 10px rgb(255, 255, 255);
   }
 
 
