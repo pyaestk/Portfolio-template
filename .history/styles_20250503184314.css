@@ -340,7 +340,6 @@ video {
   .project-intro{
     width: auto;
     position: static;
-    margin-top: 30px;
   }
   .projects-list{
     display: grid;
@@ -348,13 +347,7 @@ video {
     gap: 30px;
   }
   .project-intro h1 {
-    font-size: 35px;
-  }
-  .project-intro p {
-    font-size: 13px;
-  }
-  .intro-btns button{
-    margin-left: 20px;
+    font-size: 45px;
   }
 
 
@@ -403,7 +396,7 @@ video {
     padding: 15px 15px;
   }
   .skills-container h5 {
-    font-size: 23px;
+    font-size: 25px;
   }
   .skills-container h6 {
     font-size: 18px;

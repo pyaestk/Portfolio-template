@@ -340,7 +340,6 @@ video {
   .project-intro{
     width: auto;
     position: static;
-    margin-top: 30px;
   }
   .projects-list{
     display: grid;
