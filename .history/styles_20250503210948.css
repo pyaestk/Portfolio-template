@@ -5,8 +5,6 @@
 html {
   scroll-behavior: smooth;
 }
-
-
 /* index.html */
 
 video {
@@ -307,10 +305,6 @@ video {
 
 
 
-
-
-
-/* for small screen size */
 
 @media (max-width: 1170px) {
 

@@ -2,9 +2,8 @@
   margin: 0;
   padding: 0;
 }
-html {
-  scroll-behavior: smooth;
-}
+
+
 
 
 /* index.html */
@@ -308,10 +307,6 @@ video {
 
 
 
-
-
-/* for small screen size */
-
 @media (max-width: 1170px) {
 
   /* index.html */
@@ -384,7 +379,7 @@ video {
     width: 85%;
   }
 
-  /* about me.html */
+  /* about.html */
   .background-container {
     align-items: center;
   }
