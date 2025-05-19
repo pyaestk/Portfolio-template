@@ -120,7 +120,6 @@ video {
 }
 
 .projects-container .card {
-    box-shadow: 0 0 10px rgb(255, 255, 255);
   height: auto;
   background-color: rgba(54, 54, 54, 0.527);
   display: flex;
@@ -222,7 +221,7 @@ video {
 }
 
 .skills-container .general-skills, .technical-skills{
-  background-color: rgba(54, 54, 54, 0.527);
+  background-color: rgba(0, 0, 0, 0.849);
   box-shadow: 0 0 10px rgb(255, 255, 255);
   color: white;
   border-radius: 10px;
@@ -335,7 +334,7 @@ video {
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 0px;
+    padding: 5% 5%;
     gap: 40px;
   }
   .project-intro{
@@ -350,7 +349,6 @@ video {
   }
   .project-intro h1 {
     font-size: 35px;
-    margin-top: 30px;
   }
   .project-intro p {
     font-size: 13px;

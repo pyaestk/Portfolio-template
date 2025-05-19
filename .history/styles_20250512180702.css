@@ -341,7 +341,7 @@ video {
   .project-intro{
     width: auto;
     position: static;
-    margin-top: 30px;
+    margin-top: 40px;
   }
   .projects-list{
     display: grid;
@@ -350,7 +350,6 @@ video {
   }
   .project-intro h1 {
     font-size: 35px;
-    margin-top: 30px;
   }
   .project-intro p {
     font-size: 13px;
