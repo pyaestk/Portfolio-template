@@ -131,7 +131,7 @@ video {
   color: white;
 }
 .projects-container .card-body{
-  padding: 20px 10px 10px 10px;
+  padding: 20px 0px 0px 0px;
 }
 .projects-container .card:hover {
   box-shadow: 0 0 20px rgb(255, 255, 255);
