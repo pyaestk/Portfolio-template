@@ -122,7 +122,7 @@ video {
 .projects-container .card {
     box-shadow: 0 0 10px rgb(255, 255, 255);
   height: auto;
-  background-color: rgba(29, 29, 29, 0.671);
+  background-color: rgba(22, 22, 22, 0.219);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -130,9 +130,7 @@ video {
   padding: 15px;
   color: white;
 }
-.card-body{
-  padding: 20px 0px 0px 0px;
-}
+
 .projects-container .card:hover {
   box-shadow: 0 0 20px rgb(255, 255, 255);
   transition: all 0.3s ease-in-out;
@@ -157,7 +155,7 @@ video {
 .education-container .card {
   width: 70%;
   height: auto;
-  background-color: rgba(29, 29, 29, 0.671);
+  background-color: rgba(54, 54, 54, 0.527);
   padding: 20px 50px;
   color: white;
   box-shadow: 0 0 10px rgb(255, 255, 255);
@@ -224,7 +222,7 @@ video {
 }
 
 .skills-container .general-skills, .technical-skills{
-  background-color: rgba(29, 29, 29, 0.671);
+  background-color: rgba(54, 54, 54, 0.527);
   box-shadow: 0 0 10px rgb(255, 255, 255);
   color: white;
   border-radius: 10px;
@@ -359,13 +357,6 @@ video {
   }
   .intro-btns button{
     margin-left: 20px;
-  }
-
-  .projects-list-container {
-    width: 80%;
-  }
-  .projects-list-container .card{
-    margin-bottom: 20px;
   }
   .projects-list-container .card-text{
     font-size: 13px;

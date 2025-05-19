@@ -130,9 +130,7 @@ video {
   padding: 15px;
   color: white;
 }
-.card-body{
-  padding: 20px 0px 0px 0px;
-}
+
 .projects-container .card:hover {
   box-shadow: 0 0 20px rgb(255, 255, 255);
   transition: all 0.3s ease-in-out;
@@ -360,11 +358,9 @@ video {
   .intro-btns button{
     margin-left: 20px;
   }
-
-  .projects-list-container {
-    width: 80%;
-  }
-  .projects-list-container .card{
+  .projects-list-container .card {
+    width: 90%;
+    padding: 10px 10px;
     margin-bottom: 20px;
   }
   .projects-list-container .card-text{

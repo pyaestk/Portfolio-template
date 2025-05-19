@@ -105,6 +105,7 @@ video {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
 }
 
 .projects-list{
@@ -359,10 +360,6 @@ video {
   }
   .intro-btns button{
     margin-left: 20px;
-  }
-
-  .projects-list-container {
-    width: 80%;
   }
   .projects-list-container .card{
     margin-bottom: 20px;

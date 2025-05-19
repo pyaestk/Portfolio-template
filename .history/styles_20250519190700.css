@@ -100,7 +100,7 @@ video {
   align-self: flex-start; /* Align to the start of the container */
 }
 .projects-list-container {
-  width: 70%;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -359,10 +359,6 @@ video {
   }
   .intro-btns button{
     margin-left: 20px;
-  }
-
-  .projects-list-container {
-    width: 80%;
   }
   .projects-list-container .card{
     margin-bottom: 20px;

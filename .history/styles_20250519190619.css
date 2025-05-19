@@ -91,6 +91,7 @@ video {
   flex-direction: row;
   flex-wrap: wrap;
   padding: 5% 5%;
+  gap: 40px;
 }
 .project-intro{
   width: 30%;
@@ -359,10 +360,6 @@ video {
   }
   .intro-btns button{
     margin-left: 20px;
-  }
-
-  .projects-list-container {
-    width: 80%;
   }
   .projects-list-container .card{
     margin-bottom: 20px;
