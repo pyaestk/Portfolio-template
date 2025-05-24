@@ -226,6 +226,7 @@ video {
 
 
 .education-container {
+  min-height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -512,7 +513,7 @@ video {
     padding: 15px 15px;
   }
   .skills-container h3 {
-    margin-top: 60px;
+    margin-top: 10px;
   }
   .skills-container p {
     font-size: 13px;
