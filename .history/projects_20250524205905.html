@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link href="styles.css" rel="stylesheet">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1 ">
+
+    <title>My Webpage</title>
+</head>
+
+<body class="bg-black">
+
+    <nav class="navbar navbar-expand-lg bg-black navbar-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav text-center">
+                    <li class="nav-item px-3">
+                        <a class="nav-link" aria-current="page" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link active" href="projects.html">PROJECTS</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="aboutme.html">ABOUT ME</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="projects-container">
+        <div class="project-intro">
+            <h1 style="--delay: .2s; ">PROJECTS</h1>
+            <p class="text-white" style="--delay: .2s; ">
+                Web Design Projects: 2 items <br>
+                Android Projects: 2 items
+            </p>
+        </div>
+        <div class="projects-list-container ">
+            <div class="projects-list">
+                <div class="project-card-1">
+                    <div class="card" style="--delay: .4s;">
+                        <img src="img/project1-thumbnail-min.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Future-Residency</h5>
+                            <p class="card-text">Website design for a real-estate business with a classic UI.</p>
+                            <div>
+                                <span class="badge text-bg-danger">HTML</span>
+                            <span class="badge text-bg-info">CSS</span>
+                            <span class="badge text-bg-warning">JavaScript</span>
+                            <span class="badge text-bg-light">Bootstrap</span>
+                            </div>
+                            <a href="https://pyaestk.github.io/Future-residency/">
+                                <button type="button" class="btn btn-dark mt-3">Watch Live Demo</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card-2">
+                    <div class="card" style="--delay: .4s;">
+                        <img src="img/project2-thumbnail-min.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Chronosense</h5>
+                            <p class="card-text">Website design for Watch business with modern UI.</p>
+                            <div>
+                                <span class="badge text-bg-danger">HTML</span>
+                            <span class="badge text-bg-info">CSS</span>
+                            <span class="badge text-bg-warning">JavaScript</span>
+                            <span class="badge text-bg-light">Boostrap</span>
+                            </div>
+                            <a href="https://pyaestk.github.io/chronosense/"><button type="button"
+                                    class="btn btn-dark mt-3">Watch Live Demo</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card-2">
+                    <div class="card" style="--delay: .4s;">
+                        <img src="img/android-project1-thumbnail.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Potter Verse</h5>
+                            <p class="card-text">An app that provides users with
+                                information about the Harry Potter universe. </p>
+                            <div>
+                                <span class="badge text-bg-success">Kotlin</span>
+                                <span class="badge text-bg-info">Room</span>
+                            </div>
+                            <a href="https://github.com/pyaestk/PotterVerse"><button type="button"
+                                    class="btn btn-dark mt-3">Source code</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card-2">
+                    <div class="card" style="--delay: .4s;">
+                        <img src="img/android-project2-thumbnail.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Suit-Case</h5>
+                            <p class="card-text">An app that helps users to manage their
+                                travel packing items.</p>
+                            <div>
+                                <span class="badge text-bg-success">Kotlin</span>
+                                <span class="badge text-bg-warning">Firebase</span>
+                            </div>
+                            <a href="https://github.com/pyaestk/Suit-Case"><button type="button"
+                                    class="btn btn-dark mt-3">Source code</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- 
+    <div class="projects-container">
+        <div class="project-intro">
+            <h1 style="--delay: .2s; ">ANDROID<br>PROJECTS</h1>
+            <p class="text-white" style="--delay: .2s; ">Native android projects developed <br>with Kotlin</p>
+        </div>
+        <div class="projects-list-container">
+            <div class="projects-list mb-5">
+                
+            </div>
+        </div>
+    </div> -->
+
+
+
+</body>
+
+</html>
