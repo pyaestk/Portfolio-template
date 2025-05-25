@@ -440,6 +440,11 @@ video {
 @media (max-width: 1180px) {
 
   /* index.html */
+  .intro-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .intro-btns {
     display: flex;
     justify-content: center;
@@ -544,7 +549,11 @@ video {
     text-align: start;
   }
   .technical-skills p {
-    font-size: 15px;
+    font-size: 12px;
+  }
+
+  .socialmedia-container p {
+    font-size: 14px;
   }
   
 }
