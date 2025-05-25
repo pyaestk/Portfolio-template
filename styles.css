@@ -437,7 +437,7 @@ video {
 
 /* for small screen size */
 
-@media (max-width: 1180px) {
+@media (max-width: 992px) {
 
   /* index.html */
   .intro-container {
