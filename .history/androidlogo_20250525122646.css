@@ -175,35 +175,32 @@ body {
 }
 
 @media (max-width: 1180px) {
-  .animate-on-load {
-    display: none !important;
-  }
   body {
     overflow-y: visible;
     overflow-x: hidden;
   }
-  /* #android-logo {
+  #android-logo {
     position: absolute;
-    bottom: -100px; 
-    left: 100%; 
+    bottom: -100px; /* distance from bottom */
+    left: 100%; /* center horizontally */
     transform: translateX(-90%);
     transform: translateY(-60%);
-    rotate: -40deg; 
-  } */
+    rotate: -40deg; /* shift left by 50% width to center */
+  }
 
   /* .animate-on-load {
     animation: slideInLeft 0.8s ease forwards,
-      slideOutRight 0.8s ease forwards 1.5s; 
+      slideOutRight 0.8s ease forwards 1.5s; /* wait 3s before starting */
   }
 
   @keyframes slideInLeft {
     0% {
-      left: 120%; 
+      left: 120%; /* start off screen right */
       opacity: 0;
       visibility: visible;
     }
     100% {
-      left: 100%; 
+      left: 100%; /* slide to center horizontally */
       opacity: 1;
       visibility: visible;
     }
@@ -211,12 +208,12 @@ body {
 
   @keyframes slideOutRight {
     0% {
-      left: 100%; 
+      left: 100%; /* start at center */
       opacit5: 1;
       visibility: visible;
     }
     100% {
-      left: 120%;
+      left: 120%; /* slide off screen right */
       opacity: 0;
       visibility: hidden;
     }

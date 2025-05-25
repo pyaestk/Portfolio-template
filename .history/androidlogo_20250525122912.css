@@ -178,17 +178,9 @@ body {
   .animate-on-load {
     display: none !important;
   }
-  body {
-    overflow-y: visible;
-    overflow-x: hidden;
-  }
   /* #android-logo {
-    position: absolute;
-    bottom: -100px; 
-    left: 100%; 
-    transform: translateX(-90%);
-    transform: translateY(-60%);
-    rotate: -40deg; 
+    display: block;
+    visibility: hidden;
   } */
 
   /* .animate-on-load {

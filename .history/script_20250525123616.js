@@ -28,14 +28,10 @@ document.getElementById("downloadBtn").addEventListener("click", function () {
   document.body.removeChild(a);
 });
 
-
-
 document.addEventListener("DOMContentLoaded", function () {
   const logo = document.getElementById("android-logo");
   logo.classList.add("animate-on-load");
 });
-
-
 
 var wordsToType = document
     .querySelector("span[words]")

@@ -440,36 +440,32 @@ video {
 @media (max-width: 1180px) {
 
   /* index.html */
-  .intro-btns {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
   .intro-body {
     margin-top: 50px;
     margin-bottom: 50px;
-    text-align: center;
+    text-align: start;
   }
   .my-role {
     font-size: 17px;
     margin-bottom: 20px;
   }
   .my-name {
-    font-size: 49px;
+    font-size: 25px;
     margin-bottom: 20px;
   }
   .intro-text p {
-    text-align: center;
+    text-align: start;
     font-size: 15px;
     padding-right: 0;
     margin-bottom: 20px;
   }
   .intro-btns button{
     margin-top: 20px;
-    width: 130px;
+    width: 180px;
     height: 45px;
-    font-size: 12px;
-    margin: 10px;
+    font-size: 15px;
+    margin-right: 20px;
+    font-weight: bolder;
   }
 
   /* projects.html */

@@ -175,14 +175,11 @@ body {
 }
 
 @media (max-width: 1180px) {
-  .animate-on-load {
-    display: none !important;
-  }
-  body {
+  /* body {
     overflow-y: visible;
     overflow-x: hidden;
   }
-  /* #android-logo {
+  #android-logo {
     position: absolute;
     bottom: -100px; 
     left: 100%; 

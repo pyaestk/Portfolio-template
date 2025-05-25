@@ -44,20 +44,6 @@ video {
 .my-role {
   font-size: 25px
 }
-.my-role span::after{
-    content: '|';
-    animation-name: blinking; 
-    animation-duration: .71s; 
-    animation-iteration-count: infinite;
-}
-@keyframes blinking{
-    from{
-        color: transparent; 
-    }
-    to{
-        color: lightgrey; 
-    }
-}
 .my-name {
   font-family: "Doto", sans-serif;
   font-size: 60px;
@@ -119,7 +105,6 @@ video {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 0% 5%;
   align-items: center;
 }
 .projects-list-container {
@@ -440,22 +425,17 @@ video {
 @media (max-width: 1180px) {
 
   /* index.html */
-  .intro-btns {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
   .intro-body {
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
   }
   .my-role {
-    font-size: 17px;
+    font-size: 20px;
     margin-bottom: 20px;
   }
   .my-name {
-    font-size: 49px;
+    font-size: 25px;
     margin-bottom: 20px;
   }
   .intro-text p {
@@ -463,13 +443,6 @@ video {
     font-size: 15px;
     padding-right: 0;
     margin-bottom: 20px;
-  }
-  .intro-btns button{
-    margin-top: 20px;
-    width: 130px;
-    height: 45px;
-    font-size: 12px;
-    margin: 10px;
   }
 
   /* projects.html */
@@ -500,6 +473,9 @@ video {
   }
   .project-intro p {
     font-size: 13px;
+  }
+  .intro-btns button{
+    margin-left: 20px;
   }
 
   .projects-list-container {
@@ -539,12 +515,8 @@ video {
   .skills-container h3 {
     margin-top: 60px;
   }
-  .softskills-container p {
-    font-size: 15px;
-    text-align: start;
-  }
-  .technical-skills p {
-    font-size: 15px;
+  .skills-container p {
+    font-size: 13px;
   }
   
 }

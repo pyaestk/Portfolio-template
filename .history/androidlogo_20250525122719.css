@@ -175,21 +175,18 @@ body {
 }
 
 @media (max-width: 1180px) {
-  .animate-on-load {
-    display: none !important;
-  }
   body {
     overflow-y: visible;
     overflow-x: hidden;
   }
-  /* #android-logo {
+  #android-logo {
     position: absolute;
-    bottom: -100px; 
-    left: 100%; 
+    bottom: -100px; /* distance from bottom */
+    left: 100%; /* center horizontally */
     transform: translateX(-90%);
     transform: translateY(-60%);
-    rotate: -40deg; 
-  } */
+    rotate: -40deg; /* shift left by 50% width to center */
+  }
 
   /* .animate-on-load {
     animation: slideInLeft 0.8s ease forwards,

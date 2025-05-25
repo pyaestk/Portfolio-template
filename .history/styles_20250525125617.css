@@ -442,7 +442,8 @@ video {
   /* index.html */
   .intro-btns {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    gap: 20px;
     align-items: center;
   }
   .intro-body {
@@ -455,7 +456,7 @@ video {
     margin-bottom: 20px;
   }
   .my-name {
-    font-size: 49px;
+    font-size: 40px;
     margin-bottom: 20px;
   }
   .intro-text p {
@@ -469,7 +470,7 @@ video {
     width: 130px;
     height: 45px;
     font-size: 12px;
-    margin: 10px;
+    margin-right: 0px;
   }
 
   /* projects.html */

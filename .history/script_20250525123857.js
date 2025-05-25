@@ -43,7 +43,7 @@ var wordsToType = document
     .split(","),
   typer = document.querySelector("span[words]"),
   typingSpeed = parseInt(typer.getAttribute("typing-speed")) || 70,
-  typingDelay = parseInt(typer.getAttribute("typing-delay")) || 700;
+  typingDelay = parseInt(typer.getAttribute("typing-delay")) || 900;
 
 var currentWordIndex = 0,
   currentCharacterIndex = 0;

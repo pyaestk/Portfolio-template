@@ -178,18 +178,10 @@ body {
   .animate-on-load {
     display: none !important;
   }
-  body {
-    overflow-y: visible;
-    overflow-x: hidden;
+  #android-logo {
+    display: block;
+    visibility: hidden;
   }
-  /* #android-logo {
-    position: absolute;
-    bottom: -100px; 
-    left: 100%; 
-    transform: translateX(-90%);
-    transform: translateY(-60%);
-    rotate: -40deg; 
-  } */
 
   /* .animate-on-load {
     animation: slideInLeft 0.8s ease forwards,

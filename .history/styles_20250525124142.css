@@ -440,22 +440,17 @@ video {
 @media (max-width: 1180px) {
 
   /* index.html */
-  .intro-btns {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
   .intro-body {
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
   }
   .my-role {
-    font-size: 17px;
+    font-size: 15px;
     margin-bottom: 20px;
   }
   .my-name {
-    font-size: 49px;
+    font-size: 35px;
     margin-bottom: 20px;
   }
   .intro-text p {
@@ -463,13 +458,6 @@ video {
     font-size: 15px;
     padding-right: 0;
     margin-bottom: 20px;
-  }
-  .intro-btns button{
-    margin-top: 20px;
-    width: 130px;
-    height: 45px;
-    font-size: 12px;
-    margin: 10px;
   }
 
   /* projects.html */
@@ -500,6 +488,9 @@ video {
   }
   .project-intro p {
     font-size: 13px;
+  }
+  .intro-btns button{
+    margin-left: 20px;
   }
 
   .projects-list-container {
