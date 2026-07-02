@@ -75,42 +75,43 @@ const projects = [
     type: "Public railway transportation platform",
     description:
       "Responsive map-based trip planning UI connected with backend APIs for route and station information.",
-    tags: ["React", "REST APIs", "UI/UX", "Maps"],
+    tags: ["React", "REST APIs", "UI/UX", "Maps", "Python", "FastAPI", "MySQL", "Docker", "Nginx"],
+    action: "Live demo",
+    href: "https://bangkokrailway.teraz.tech"
   },
   {
     title: "Cake Store App",
     type: "Android e-commerce application",
     description:
       "Authentication, cart management, checkout, and order tracking built with Firebase, Coroutines, StateFlow, and Koin.",
-    tags: ["Kotlin", "Firebase", "StateFlow", "Koin"],
+    tags: ["Kotlin", "Firebase", "StateFlow", "Koin", "MVVM", "Jetpack Compose", "Clean Architecture"],
+    action: "Source code",
+    href: "https://github.com/pyaestk/Cake-Store-App"
   },
   {
     title: "Expense Tracker",
     type: "Personal finance application",
     description:
       "Income, expense, budget, preferences, and analytics features with local persistence and reactive UI updates.",
-    tags: ["Android", "Persistence", "Analytics", "MVVM"],
+    tags: ["Android", "Persistence", "Analytics", "MVVM", "Jetpack Compose", "Kotlin", "Room", "StateFlow", "Clean Architecture"],
+    action: "Source code",
+    href: "https://github.com/pyaestk/Expenses-Tracker"
   },
   {
     title: "Student Performance Analysis",
     type: "Machine learning and statistical testing",
     description:
       "Cleaned education datasets, engineered features, tested hypotheses, trained models, and visualized performance trends.",
-    tags: ["Python", "Pandas", "Scikit-learn", "Statistics"],
+    tags: ["Python", "Pandas", "Scikit-learn", "Statistics", "Data Visualization", "Machine Learning", "Hypothesis Testing"],
   },
   {
     title: "Secure Authentication",
     type: "Security-focused Android app",
     description:
       "Password hashing, email verification, OTP-based two-factor authentication, bot protection, validation, and login timeout controls.",
-    tags: ["Android", "Security", "OTP", "Authentication"],
-  },
-  {
-    title: "TechDebt-Hotspot",
-    type: "Engineering dashboard",
-    description:
-      "Dashboard combining code churn, maintenance issues, and code smell signals into maintainability insights for GitHub repositories.",
-    tags: ["Dashboard", "GitHub", "SonarQube", "Analytics"],
+    tags: ["Android", "Security", "OTP", "Authentication", "Kotlin", "HCaptcha", "Firebase", "2FA", "Password Hashing"],
+    action: "Source code",
+    href: "https://github.com/pyaestk/Secure-Authentication"
   },
   {
     title: "Future Residency",
@@ -209,6 +210,7 @@ const education = [
 const certificates = [
   "Android App Development with Kotlin - Udemy",
   "Create REST APIs with Spring and Java - Codecademy",
+  "Learn Docker - Boot.dev",
   "CS50's Introduction to Computer Science - Harvard University",
   "Learn Java - Codecademy",
   "Exploring Networking with Cisco Packet Tracer",
@@ -442,7 +444,7 @@ function App() {
                   <p>{project.description}</p>
                   <TagList tags={project.tags} />
                   {project.href ? (
-                    <a href={project.href} target="_blank" rel="noreferrer">
+                    <a className="project-action" href={project.href} target="_blank" rel="noreferrer">
                       {project.action}
                       <ExternalLink size={16} />
                     </a>

@@ -742,6 +742,13 @@ video {
   gap: 16px;
 }
 
+.project-action {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 1.5rem;
+}
+
 .project-card {
   position: relative;
   display: flex;
@@ -928,6 +935,7 @@ video {
   margin: 12px 0 0;
   color: var(--muted);
 }
+
 
 .language-panel strong {
   color: var(--text);
