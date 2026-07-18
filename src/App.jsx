@@ -20,6 +20,7 @@ import {
   X,
 } from "lucide-react";
 import bgVideo from "../img/background-vid.mp4";
+import bangkokTransit from "../img/bangkok-transit-preview.png";
 import futureResidency from "../img/project1-thumbnail-min.png";
 import chronosense from "../img/project2-thumbnail-min.png";
 import potterVerse from "../img/android-project1-thumbnail.png";
@@ -76,8 +77,10 @@ const projects = [
     description:
       "Responsive map-based trip planning UI connected with backend APIs for route and station information.",
     tags: ["React", "REST APIs", "UI/UX", "Maps", "Python", "FastAPI", "MySQL", "Docker", "Nginx"],
+    image: bangkokTransit,
+    imageVariant: "wide",
     action: "Live demo",
-    href: "https://bangkokrailway.teraz.tech"
+    href: "https://bangkokrailway.teraz.tech/",
   },
   {
     title: "Cake Store App",
@@ -196,12 +199,13 @@ const education = [
     place: "University of Sunderland - United Kingdom",
   },
   {
-    date: "Feb 2024",
+    date: "13 Feb 2024",
     title: "Pearson BTEC Higher National Diploma in Computing",
-    place: "Gusto College - Myanmar",
+    place: "GUSTO College - Myanmar",
+    note: "Final Grade: Distinction",
   },
   {
-    date: "May 2020",
+    date: "Graduated in 2020",
     title: "Highschool Diploma",
     place: "Great Crown Private Highschool - Myanmar",
   },
@@ -433,7 +437,13 @@ function App() {
 
           <div className="projects-grid">
             {projects.map((project, index) => (
-              <article className={`project-card ${project.image ? "has-image" : ""}`} key={project.title} data-reveal>
+              <article
+                className={`project-card ${project.image ? "has-image" : ""} ${
+                  project.imageVariant === "wide" ? "wide-preview" : ""
+                }`}
+                key={project.title}
+                data-reveal
+              >
                 {project.image ? (
                   <img src={project.image} alt={`${project.title} project preview`} />
                 ) : null}

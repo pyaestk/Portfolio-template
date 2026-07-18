@@ -779,6 +779,11 @@ video {
   border-bottom: 1px solid var(--line);
 }
 
+.project-card.wide-preview img {
+  aspect-ratio: 16 / 9;
+  object-position: center top;
+}
+
 .project-card-body {
   display: flex;
   flex: 1;
